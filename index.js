@@ -1,7 +1,7 @@
 function solution(S) {
     const N = S.length;
     const M = S[1].length;
-    const output = []; //empty array stores the returned indexes
+    const output = []; // empty array stores the character positions
 
 
     for (let i = 0; i < M; i++) { //iterates over each position of the string
